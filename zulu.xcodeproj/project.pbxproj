@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FCEC17441FA522570072067C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17431FA522570072067C /* AppDelegate.swift */; };
-		FCEC17461FA522570072067C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17451FA522570072067C /* FirstViewController.swift */; };
-		FCEC17481FA522570072067C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17471FA522570072067C /* SecondViewController.swift */; };
 		FCEC174B1FA522570072067C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEC17491FA522570072067C /* Main.storyboard */; };
 		FCEC174D1FA522570072067C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEC174C1FA522570072067C /* Assets.xcassets */; };
 		FCEC17501FA522570072067C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEC174E1FA522570072067C /* LaunchScreen.storyboard */; };
 		FCEC175B1FA522570072067C /* zuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC175A1FA522570072067C /* zuluTests.swift */; };
 		FCEC17661FA522570072067C /* zuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17651FA522570072067C /* zuluUITests.swift */; };
+		FCEC17741FA5244A0072067C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17731FA5244A0072067C /* ContactsViewController.swift */; };
+		FCEC17761FA5245B0072067C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17751FA5245B0072067C /* MapViewController.swift */; };
+		FCEC17781FA5246E0072067C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17771FA5246E0072067C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		FCEC17401FA522570072067C /* zulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEC17431FA522570072067C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCEC17451FA522570072067C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FCEC17471FA522570072067C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FCEC174A1FA522570072067C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCEC174C1FA522570072067C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEC174F1FA522570072067C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		FCEC17611FA522570072067C /* zuluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zuluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEC17651FA522570072067C /* zuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zuluUITests.swift; sourceTree = "<group>"; };
 		FCEC17671FA522570072067C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEC17731FA5244A0072067C /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		FCEC17751FA5245B0072067C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FCEC17771FA5246E0072067C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				FCEC17431FA522570072067C /* AppDelegate.swift */,
-				FCEC17451FA522570072067C /* FirstViewController.swift */,
-				FCEC17471FA522570072067C /* SecondViewController.swift */,
 				FCEC17491FA522570072067C /* Main.storyboard */,
 				FCEC174C1FA522570072067C /* Assets.xcassets */,
 				FCEC174E1FA522570072067C /* LaunchScreen.storyboard */,
 				FCEC17511FA522570072067C /* Info.plist */,
+				FCEC17731FA5244A0072067C /* ContactsViewController.swift */,
+				FCEC17751FA5245B0072067C /* MapViewController.swift */,
+				FCEC17771FA5246E0072067C /* SettingsViewController.swift */,
 			);
 			path = zulu;
 			sourceTree = "<group>";
@@ -262,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEC17481FA522570072067C /* SecondViewController.swift in Sources */,
+				FCEC17741FA5244A0072067C /* ContactsViewController.swift in Sources */,
 				FCEC17441FA522570072067C /* AppDelegate.swift in Sources */,
-				FCEC17461FA522570072067C /* FirstViewController.swift in Sources */,
+				FCEC17761FA5245B0072067C /* MapViewController.swift in Sources */,
+				FCEC17781FA5246E0072067C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
