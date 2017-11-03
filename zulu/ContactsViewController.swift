@@ -10,26 +10,31 @@ import UIKit
 
 class ContactsViewController: UIViewController {
     @IBOutlet weak var sgmtEditMode: UISegmentedControl!
-    @IBOutlet weak var txtName: UITextView!
-    @IBOutlet weak var txtAddress: UITextView!
-    @IBOutlet weak var txtCity: UITextView!
-    @IBOutlet weak var txtState: UITextView!
-    @IBOutlet weak var txtZip: UITextView!
-    @IBOutlet weak var txtCell: UITextView!
-    @IBOutlet weak var txtPhone: UITextView!
-    @IBOutlet weak var txtEmail: UITextView!
-    @IBOutlet weak var txtBirthdate: UITextView!
-    @IBOutlet weak var lblBirthdate: UITextView!
-    @IBOutlet weak var btnChange: UITextView!
+    @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtAddress: UITextField!
+    @IBOutlet weak var txtCity: UITextField!
+    @IBOutlet weak var txtZipCode: UITextField!
+    @IBOutlet weak var txtState: UITextField!
+    
+    @IBOutlet weak var txtCellPhone: UITextField!
     
     
-
+    @IBOutlet weak var txtPhone: UITextField!
+    
+    @IBOutlet weak var txtEmail: UITextField!
+    
+    @IBOutlet weak var lblBirthDate: UILabel!
+    
+    @IBOutlet weak var btnChange: UIButton!
+    
+    
     override func viewDidLoad() {
-        weak var changeEditMode: UISegmentedControl!
+        
         super.viewDidLoad()
         self.changeEditMode(self)
         // Do any additional setup after loading the view.
     }
+    
     @IBOutlet weak var scrollView: UIScrollView!
 
     override func didReceiveMemoryWarning() {
@@ -39,30 +44,33 @@ class ContactsViewController: UIViewController {
     
     @IBAction func changeEditMode(_ sender: Any)
     {
-        let textFields: [UITextField] = [txtName,txtAddress,txtCity,txtState,txtZip,txtPhone,txtCell,txtEmail]
+        let textFields: [UITextField] = [txtName,txtAddress,txtCity,txtState,txtZipCode,txtPhone,txtCellPhone,txtEmail]
          if sgmtEditMode.selectedSegmentIndex == 0   {
             for textField in textFields {
             textField.isEnabled = false
-            textField.borderStyle = UITextBorderStyle.none}
+            textField.borderStyle = UITextBorderStyle.none
                 
         }
         btnChange.isHidden = true
     }
     
-    else if sgmtEditMode.selectedSegmentIndex == 1 {
-    for textField in textFields{
-    textField.isEnabled = true
-    textField.borderStyle = UITextBorderStyle.roundedRect}
+    else if sgmtEditMode.selectedSegmentIndex == 1
+    {
+        for textField in textFields
+        {
+            textField.isEnabled = true
+            textField.borderStyle = UITextBorderStyle.roundedRect
+        }
+    
     btnChange.isHidden = false
     
     }
-    
-    
+    }
+
+
     override func viewWillAppear(_ animated: Bool) {
         
-        weak var ChangeButton: UIButton!
-        super.viewWillDisappear(animated)
-        weak var Birthdatelabel: UILabel!
+        super.viewWillAppear(animated)
         self.registerKeyboardNotifications()
     }
     
@@ -121,3 +129,4 @@ class ContactsViewController: UIViewController {
     */
 
 }
+
