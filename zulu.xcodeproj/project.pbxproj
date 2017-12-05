@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC77E0181FBA676300A28070 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77E0171FBA676300A28070 /* DateViewController.swift */; };
+		FC8951081FCCF6B9007104D4 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8951071FCCF6B9007104D4 /* ContactsTableViewController.swift */; };
+		FC89510A1FCE5965007104D4 /* LocationDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8951091FCE5965007104D4 /* LocationDemoTableViewController.swift */; };
+		FCD200741FD60B9000E69E3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD200731FD60B9000E69E3E /* GoogleService-Info.plist */; };
+		FCD2008A1FD60E6200E69E3E /* FirebaseAnalytics 5.14.07 PM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200831FD60E6200E69E3E /* FirebaseAnalytics 5.14.07 PM.framework */; };
+		FCD2008B1FD60E6200E69E3E /* FirebaseCore 5.14.20 PM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200841FD60E6200E69E3E /* FirebaseCore 5.14.20 PM.framework */; };
+		FCD2008C1FD60E6200E69E3E /* FirebaseCoreDiagnostics 5.14.16 PM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200851FD60E6200E69E3E /* FirebaseCoreDiagnostics 5.14.16 PM.framework */; };
+		FCD2008D1FD60E6200E69E3E /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200861FD60E6200E69E3E /* FirebaseInstanceID.framework */; };
+		FCD2008E1FD60E6200E69E3E /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200871FD60E6200E69E3E /* FirebaseNanoPB.framework */; };
+		FCD2008F1FD60E6200E69E3E /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200881FD60E6200E69E3E /* GoogleToolboxForMac.framework */; };
+		FCD200901FD60E6200E69E3E /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200891FD60E6200E69E3E /* nanopb.framework */; };
+		FCD200921FD6120800E69E3E /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD200911FD6120800E69E3E /* FirebaseDatabase.framework */; };
+		FCD200961FD6125600E69E3E /* GINInviteResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD200931FD6125600E69E3E /* GINInviteResources.bundle */; };
+		FCD200971FD6125600E69E3E /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD200941FD6125600E69E3E /* GoogleSignIn.bundle */; };
+		FCD200981FD6125600E69E3E /* GPPACLPickerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD200951FD6125600E69E3E /* GPPACLPickerResources.bundle */; };
 		FCEC17441FA522570072067C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17431FA522570072067C /* AppDelegate.swift */; };
 		FCEC174B1FA522570072067C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEC17491FA522570072067C /* Main.storyboard */; };
 		FCEC174D1FA522570072067C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEC174C1FA522570072067C /* Assets.xcassets */; };
@@ -14,8 +29,9 @@
 		FCEC175B1FA522570072067C /* zuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC175A1FA522570072067C /* zuluTests.swift */; };
 		FCEC17661FA522570072067C /* zuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17651FA522570072067C /* zuluUITests.swift */; };
 		FCEC17741FA5244A0072067C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17731FA5244A0072067C /* ContactsViewController.swift */; };
-		FCEC17761FA5245B0072067C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17751FA5245B0072067C /* MapViewController.swift */; };
 		FCEC17781FA5246E0072067C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC17771FA5246E0072067C /* SettingsViewController.swift */; };
+		FCF1D9211FB6138900735312 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1D9201FB6138900735312 /* Constants.swift */; };
+		FCF1D9241FB639C300735312 /* MyContactListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCF1D9221FB639C300735312 /* MyContactListModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC77E0171FBA676300A28070 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		FC8951071FCCF6B9007104D4 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		FC8951091FCE5965007104D4 /* LocationDemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDemoTableViewController.swift; sourceTree = "<group>"; };
+		FCD200731FD60B9000E69E3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FCD200831FD60E6200E69E3E /* FirebaseAnalytics 5.14.07 PM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "FirebaseAnalytics 5.14.07 PM.framework"; sourceTree = "<group>"; };
+		FCD200841FD60E6200E69E3E /* FirebaseCore 5.14.20 PM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "FirebaseCore 5.14.20 PM.framework"; sourceTree = "<group>"; };
+		FCD200851FD60E6200E69E3E /* FirebaseCoreDiagnostics 5.14.16 PM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "FirebaseCoreDiagnostics 5.14.16 PM.framework"; sourceTree = "<group>"; };
+		FCD200861FD60E6200E69E3E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		FCD200871FD60E6200E69E3E /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		FCD200881FD60E6200E69E3E /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		FCD200891FD60E6200E69E3E /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		FCD200911FD6120800E69E3E /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		FCD200931FD6125600E69E3E /* GINInviteResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GINInviteResources.bundle; sourceTree = "<group>"; };
+		FCD200941FD6125600E69E3E /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		FCD200951FD6125600E69E3E /* GPPACLPickerResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPPACLPickerResources.bundle; sourceTree = "<group>"; };
+		FCD200991FD6136400E69E3E /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		FCEC17401FA522570072067C /* zulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEC17431FA522570072067C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCEC174A1FA522570072067C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,8 +81,9 @@
 		FCEC17651FA522570072067C /* zuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zuluUITests.swift; sourceTree = "<group>"; };
 		FCEC17671FA522570072067C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCEC17731FA5244A0072067C /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		FCEC17751FA5245B0072067C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FCEC17771FA5246E0072067C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FCF1D9201FB6138900735312 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FCF1D9231FB639C300735312 /* MyContactListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactListModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD2008C1FD60E6200E69E3E /* FirebaseCoreDiagnostics 5.14.16 PM.framework in Frameworks */,
+				FCD2008B1FD60E6200E69E3E /* FirebaseCore 5.14.20 PM.framework in Frameworks */,
+				FCD2008E1FD60E6200E69E3E /* FirebaseNanoPB.framework in Frameworks */,
+				FCD200901FD60E6200E69E3E /* nanopb.framework in Frameworks */,
+				FCD200921FD6120800E69E3E /* FirebaseDatabase.framework in Frameworks */,
+				FCD2008F1FD60E6200E69E3E /* GoogleToolboxForMac.framework in Frameworks */,
+				FCD2008A1FD60E6200E69E3E /* FirebaseAnalytics 5.14.07 PM.framework in Frameworks */,
+				FCD2008D1FD60E6200E69E3E /* FirebaseInstanceID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +142,31 @@
 		FCEC17421FA522570072067C /* zulu */ = {
 			isa = PBXGroup;
 			children = (
+				FC8951071FCCF6B9007104D4 /* ContactsTableViewController.swift */,
 				FCEC17431FA522570072067C /* AppDelegate.swift */,
+				FCF1D9221FB639C300735312 /* MyContactListModel.xcdatamodeld */,
 				FCEC17491FA522570072067C /* Main.storyboard */,
+				FC8951091FCE5965007104D4 /* LocationDemoTableViewController.swift */,
 				FCEC174C1FA522570072067C /* Assets.xcassets */,
 				FCEC174E1FA522570072067C /* LaunchScreen.storyboard */,
 				FCEC17511FA522570072067C /* Info.plist */,
+				FCD200991FD6136400E69E3E /* Firebase.h */,
+				FCD200911FD6120800E69E3E /* FirebaseDatabase.framework */,
+				FCD200831FD60E6200E69E3E /* FirebaseAnalytics 5.14.07 PM.framework */,
+				FCD200841FD60E6200E69E3E /* FirebaseCore 5.14.20 PM.framework */,
+				FCD200851FD60E6200E69E3E /* FirebaseCoreDiagnostics 5.14.16 PM.framework */,
+				FCD200861FD60E6200E69E3E /* FirebaseInstanceID.framework */,
+				FCD200871FD60E6200E69E3E /* FirebaseNanoPB.framework */,
+				FCD200881FD60E6200E69E3E /* GoogleToolboxForMac.framework */,
+				FCD200891FD60E6200E69E3E /* nanopb.framework */,
 				FCEC17731FA5244A0072067C /* ContactsViewController.swift */,
-				FCEC17751FA5245B0072067C /* MapViewController.swift */,
 				FCEC17771FA5246E0072067C /* SettingsViewController.swift */,
+				FCD200731FD60B9000E69E3E /* GoogleService-Info.plist */,
+				FCF1D9201FB6138900735312 /* Constants.swift */,
+				FC77E0171FBA676300A28070 /* DateViewController.swift */,
+				FCD200931FD6125600E69E3E /* GINInviteResources.bundle */,
+				FCD200941FD6125600E69E3E /* GoogleSignIn.bundle */,
+				FCD200951FD6125600E69E3E /* GPPACLPickerResources.bundle */,
 			);
 			path = zulu;
 			sourceTree = "<group>";
@@ -239,7 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEC17501FA522570072067C /* LaunchScreen.storyboard in Resources */,
+				FCD200961FD6125600E69E3E /* GINInviteResources.bundle in Resources */,
+				FCD200981FD6125600E69E3E /* GPPACLPickerResources.bundle in Resources */,
+				FCD200741FD60B9000E69E3E /* GoogleService-Info.plist in Resources */,
 				FCEC174D1FA522570072067C /* Assets.xcassets in Resources */,
+				FCD200971FD6125600E69E3E /* GoogleSignIn.bundle in Resources */,
 				FCEC174B1FA522570072067C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF1D9211FB6138900735312 /* Constants.swift in Sources */,
+				FC89510A1FCE5965007104D4 /* LocationDemoTableViewController.swift in Sources */,
 				FCEC17741FA5244A0072067C /* ContactsViewController.swift in Sources */,
+				FC77E0181FBA676300A28070 /* DateViewController.swift in Sources */,
+				FCF1D9241FB639C300735312 /* MyContactListModel.xcdatamodeld in Sources */,
 				FCEC17441FA522570072067C /* AppDelegate.swift in Sources */,
-				FCEC17761FA5245B0072067C /* MapViewController.swift in Sources */,
+				FC8951081FCCF6B9007104D4 /* ContactsTableViewController.swift in Sources */,
 				FCEC17781FA5246E0072067C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zulu",
+				);
 				INFOPLIST_FILE = zulu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkhululizulu..zulu;
@@ -430,6 +500,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zulu",
+				);
 				INFOPLIST_FILE = zulu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkhululizulu..zulu;
@@ -511,6 +585,7 @@
 				FCEC176C1FA522570072067C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCEC176D1FA522570072067C /* Build configuration list for PBXNativeTarget "zuluTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +594,7 @@
 				FCEC176F1FA522570072067C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCEC17701FA522570072067C /* Build configuration list for PBXNativeTarget "zuluUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,8 +603,22 @@
 				FCEC17721FA522570072067C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCF1D9221FB639C300735312 /* MyContactListModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCF1D9231FB639C300735312 /* MyContactListModel.xcdatamodel */,
+			);
+			currentVersion = FCF1D9231FB639C300735312 /* MyContactListModel.xcdatamodel */;
+			path = MyContactListModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FCEC17381FA522570072067C /* Project object */;
 }
