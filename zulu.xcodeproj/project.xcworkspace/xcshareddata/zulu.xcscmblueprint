@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE0D9439A9AEC18115A132A6C5F0AD5633F7F3E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE0D9439A9AEC18115A132A6C5F0AD5633F7F3E1" : 9223372036854775807,
+    "2B200E0E00CF52F4A390E5B4FFFF5A2FD771939A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48587267-5D6E-4026-9AA3-142AC79E0485",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE0D9439A9AEC18115A132A6C5F0AD5633F7F3E1" : "zulu\/",
+    "2B200E0E00CF52F4A390E5B4FFFF5A2FD771939A" : "My%20Contact%20List\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "zulu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "zulu.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FaulknerUniversity\/ios-assignments-MkhululiZulu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B200E0E00CF52F4A390E5B4FFFF5A2FD771939A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MkhululiZulu\/chapter10.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE0D9439A9AEC18115A132A6C5F0AD5633F7F3E1"
+    }
+  ]
+}
